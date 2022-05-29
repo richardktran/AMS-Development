@@ -1,0 +1,4 @@
+export const categoryConstants = {
+  CREATE_CATEGORY: 'CREATE_CATEGORY',
+  GET_CATEGORY_LIST: 'GET_CATEGORY_LIST',
+}

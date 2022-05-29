@@ -1,0 +1,52 @@
+export const reportListColumns = [
+  {
+    title: 'Category',
+    dataIndex: 'category_name',
+    sorter: {},
+    defaultSortOrder: 'ascend',
+    isSearchField: false,
+    isDate: false,
+  },
+  {
+    title: 'Total',
+    dataIndex: 'total',
+    sorter: {},
+    isSearchField: false,
+    isDate: false,
+  },
+  {
+    title: 'Assigned',
+    dataIndex: 'assigned',
+    sorter: {},
+    isSearchField: false,
+    isDate: false,
+  },
+  {
+    title: 'Available',
+    dataIndex: 'available',
+    sorter: {},
+    isSearchField: false,
+    isDate: false,
+  },
+  {
+    title: 'Not available',
+    dataIndex: 'not_available',
+    sorter: {},
+    isSearchField: false,
+    isDate: false,
+  },
+  {
+    title: 'Waiting for recycling',
+    dataIndex: 'waiting_for_recycling',
+    sorter: {},
+    isSearchField: false,
+    isDate: false,
+  },
+  {
+    title: 'Recycled',
+    dataIndex: 'recycled',
+    sorter: {},
+    isSearchField: false,
+    isDate: false,
+  },
+]

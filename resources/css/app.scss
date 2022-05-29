@@ -1,0 +1,109 @@
+
+html,body {
+  font-family: 'Nunito', sans-serif;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(247, 250, 252);
+}
+
+#root{
+  min-height: 100vh;
+  display: flex;
+  height: 100%;
+  align-items: start;
+  justify-content: center;
+  background: rgb(247, 250, 252);
+}
+
+.welcome-text {
+  color: #f75454;
+  font-weight: 600;
+  font-size: 2rem;
+  -webkit-font-smoothing: antialiased;
+  padding: 100px;
+  border: 5px solid #f75454;
+}
+
+.welcome-text > span {
+  font-size: 2.1rem;
+  text-shadow: 3px 3px #fbbcbc;
+}
+
+.small-welcome-text {
+  color: #f75454;
+  font-size: 0.5rem;
+  font-weight: bold;
+  margin-left: 6px;
+  margin-bottom: 1px;
+}
+
+/* CUSTOMIZE ANTD PAGINATION */
+.ant-pagination-item{
+  color: #CF2338;
+}
+
+.ant-pagination-item-active{
+  border-color: #CF2338 !important;
+  background: #CF2338 !important;
+  color: white;
+}
+
+.ant-pagination-item:focus-visible,
+.ant-pagination-item:hover,
+.ant-pagination-item:active {
+  border-color: #CF2338 !important;
+}
+
+/* CUSTOMIZE TABLE */
+.row-cursor{
+  cursor: pointer;
+}
+
+.row-text{
+  text-decoration: none;
+}
+
+.row-text:hover{
+  text-decoration:underline;
+}
+
+.menu-items{
+  height: fit-content;
+}
+
+.menu-items:hover{
+  background-color: #fafafa !important
+}
+.menu-items:active {
+  background-color: transparent !important;
+}
+
+.menu-filter .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected{
+background-color: transparent !important;
+}
+
+/* CUSTOM COLOR */
+
+#category_button_submit_category{
+    color: #CF2338;
+}
+
+#category_button_close_category_form{
+    color: black;
+}
+
+/* Striped row */
+.table-row-light {
+    background-color: #ffffff;
+}
+.table-row-dark {
+    background-color: #b1b1b1;
+}
